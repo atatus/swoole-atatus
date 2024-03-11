@@ -4,7 +4,7 @@
  * Copyright © Upscale Software. All rights reserved.
  * See LICENSE.txt for license details.
  */
-namespace Atatus\Swoole\Atatus\Apm;
+namespace Atatus\Swoole\Apm;
 
 class TransactionFactory
 {

@@ -20,7 +20,7 @@ The monitoring instrumentation is by design completely transparent to an applica
 
 Install the monitoring instrumentation for all requests:
 ```php
-use Atatus\Swoole\Atatus;
+use Atatus\Swoole;
 
 $page = <<<HTML
 <!DOCTYPE html>
@@ -49,7 +49,7 @@ $server->on('request', function ($request, $response) use ($page) {
 });
 
 // Application performnce monitoring (APM)
-$apm = new Atatus\Apm(new Atatus\Apm\TransactionFactory());
+$apm = new AtatusApm(new Apm\TransactionFactory());
 $apm->instrument($server);
 
 unset($apm);
