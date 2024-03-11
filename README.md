@@ -20,7 +20,7 @@ The monitoring instrumentation is by design completely transparent to an applica
 
 Install the monitoring instrumentation for all requests:
 ```php
-use Atatus\Swoole;
+use Atatus\Swoole\Atatus;
 
 $page = <<<HTML
 <!DOCTYPE html>

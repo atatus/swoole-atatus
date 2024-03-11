@@ -4,7 +4,7 @@
  * Copyright © Upscale Software. All rights reserved.
  * See LICENSE.txt for license details.
  */
-namespace Atatus\Swoole;
+namespace Atatus\Swoole\Atatus;
 
 /**
  * Atatus APM (Application Performance Monitoring) instrumentation

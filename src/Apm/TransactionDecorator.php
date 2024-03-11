@@ -4,7 +4,7 @@
  * Copyright © Upscale Software. All rights reserved.
  * See LICENSE.txt for license details.
  */
-namespace Atatus\Swoole\Apm;
+namespace Atatus\Swoole\Atatus\Apm;
 
 use Upscale\Swoole\Reflection\Http\Response;
 
