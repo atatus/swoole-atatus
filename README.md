@@ -67,7 +67,7 @@ The workaround is to replace the Atatus reporting functionality with the "stub" 
 {
     "require": {
         "atatus/swoole-atatus": "*",
-        "mongodb/mongodb": "^1.17"
+        ...
     }
 }
 ```
