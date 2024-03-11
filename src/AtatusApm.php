@@ -12,16 +12,16 @@ namespace Atatus\Swoole;
 class AtatusApm
 {
     /**
-     * @var Apm\TransactionFactory
+     * @var AtatusApm\TransactionFactory
      */
     protected $transactionFactory;
 
     /**
      * Inject dependencies
      *
-     * @param Apm\TransactionFactory $transactionFactory
+     * @param AtatusApm\TransactionFactory $transactionFactory
      */
-    public function __construct(Apm\TransactionFactory $transactionFactory)
+    public function __construct(AtatusApm\TransactionFactory $transactionFactory)
     {
         $this->transactionFactory = $transactionFactory;
     }
@@ -53,6 +53,6 @@ class AtatusApm
      */
     public function monitor(callable $middleware)
     {
-        return new Apm\TransactionDecorator($middleware, $this->transactionFactory);
+        return new AtatusApm\TransactionDecorator($middleware, $this->transactionFactory);
     }
 }

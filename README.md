@@ -49,7 +49,7 @@ $server->on('request', function ($request, $response) use ($page) {
 });
 
 // Application performnce monitoring (APM)
-$apm = new AtatusApm(new Apm\TransactionFactory());
+$apm = new AtatusApm(new AtatusApm\TransactionFactory());
 $apm->instrument($server);
 
 unset($apm);
