@@ -1,7 +1,7 @@
 {
     "name": "atatus/swoole-atatus",
     "description": "Atatus APM monitoring for Swoole web-server",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "keywords": ["Swoole", "Atatus", "APM", "monitoring", "integration"],
     "homepage": "https://github.com/atatus/swoole-atatus",
     "license": "Apache-2.0",
