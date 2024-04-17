@@ -1,4 +1,9 @@
-Atatus Monitoring of Swoole
+# DEPRECATED
+
+## Please use [atatus-octane](https://github.com/atatus/atatus-octane)
+
+
+Atatus Monitoring of Swoole (Deprecated)
 ==============================
 
 This library enables monitoring of PHP applications powered by [Swoole](https://openswoole.com/) web-server via [Atatus](https://www.atatus.com/) products.
